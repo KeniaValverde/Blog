@@ -8,14 +8,14 @@ Bienvenido
 <div class="hero">
     <div class="hero-content">
         <div class="left">
-            <h1>Kenia Valverde</h1>
-            <h2>Soy desarrolladora y este es mi blog</h2>
-            <p>Construyo sitios web, aplicaciones en Python, y me gusta la ciberseguridad</p>
+            <h1>Atenea Code</h1>
+            <p>Aprendamos juntos sobre desarrollo web, python y ciberseguridad</p>
             <a href="#contacto" class="btn">Contáctame</a>
         </div>
         <div class="right">
-            <img src="{{ url_for('static', filename="aten.png")}}" width="600px"/>
+            <img src="{{ url_for('static', filename="aten.png")}}" width="500px"/>
         </div>
     </div>
 </div>
+{% include 'blog/section_first.html' %}
 {% endblock %}
