@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="es">
+
 {% extends 'base.html' %}
 
 {% block title %}
@@ -5,11 +8,13 @@ Bienvenido
 {% endblock %}
 
 {% block content %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="hero">
     <div class="hero-content">
         <div class="left">
             <h1>Atenea Code</h1>
-            <p>Aprendamos juntos sobre desarrollo web, python y ciberseguridad</p>
+            <p class="row">Aprendamos juntos sobre desarrollo web, python y ciberseguridad</p>
             <a href="#contacto" class="btn">Contáctame</a>
         </div>
         <div class="right">
@@ -17,5 +22,7 @@ Bienvenido
         </div>
     </div>
 </div>
+{% include 'blog/section_second.html' %}
 {% include 'blog/section_first.html' %}
 {% endblock %}
+</html>

@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-color: #C1F5FE;
+    background-color: #DFF7FD;
     margin: 0;
     color: #1b5080;
 }
@@ -23,7 +23,7 @@ a:hover {
 html body header {
     display: flex;
     justify-content: space-between;
-    background-color: #03869c;
+    background-color: #03BCDC;
     box-shadow: 3px 0 5px #aaa;
     padding: 15px 30px;
     position: relative;
@@ -56,15 +56,17 @@ html body nav ul li a {
     position: relative;
     z-index: 1;
     display: flex;
-    background-color: #C1F5FE;
+    background-color: #DFF7FD;
     padding: 20px 50px;
     justify-content: center;
 }
 
 .hero .hero-content {
-    width: 1200px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1{
@@ -81,12 +83,11 @@ html body nav ul li a {
 }
 
 .left {
-    width: 600px;
     align-self: center;
 }
 
 .btn {
-    background-color:#03869c;
+    background-color:#03BCDC;
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -105,6 +106,9 @@ html body nav ul li a {
 .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .padded {
@@ -113,4 +117,29 @@ html body nav ul li a {
 
 .vert-pad {
     padding: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 1px 2px #ddd;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.blue {
+    color:#228149;
+}
+
+.third {
+    width: 360px;
+    margin: 20px;
+}
+
+.title {
+    color: #1b5080;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Rufina', sans-serif ;
+    justify-content: center;
 }
