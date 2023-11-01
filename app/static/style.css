@@ -100,7 +100,7 @@ html body nav ul li a {
 }
 
 .content {
-    width: 1200px;
+    width: 1400px;
 }
 
 .row {
@@ -112,11 +112,11 @@ html body nav ul li a {
 }
 
 .padded {
-    padding: 20px 30px;
+    padding: 10px 20px;
 }
 
 .vert-pad {
-    padding: 20px 0;
+    padding: 10px 40px;
 }
 
 .card {
@@ -132,7 +132,7 @@ html body nav ul li a {
 }
 
 .third {
-    width: 360px;
+    width: 300px;
     margin: 20px;
 }
 
@@ -143,3 +143,9 @@ html body nav ul li a {
     font-family: 'Rufina', sans-serif ;
     justify-content: center;
 }
+
+.artpad {
+    text-align:  justify;
+    margin-left: 110px;
+}
+
